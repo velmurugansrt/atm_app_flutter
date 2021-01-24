@@ -38,6 +38,7 @@ class _StatusScreenState extends State<StatusScreen> {
                 child: Text(
                   arguments['msg'],
                   style: Theme.of(context).textTheme.headline5,
+                  textAlign: TextAlign.center,
                 ),
               ),
               RaisedButton(
